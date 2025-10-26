@@ -1,6 +1,11 @@
 # SHAPE: Spatial Health and Population Estimator  
 *A Spatial Microsimulation Framework for Public Health Small-Area Estimation (SAE)*  
 **Programming Language:** R  
+**Citation:** insert
+**Contact:** Emma Von Hoene
+Department of Geography and Geoinformation Science
+George Mason University
+evonhoene@gmu.edu
 
 ## Overview  
 
@@ -39,7 +44,7 @@ SHAPE uses a **two-level hierarchical IPF framework**:
   
 ## Data Description  
 
-All input and evaluation datasets used in SHAPE are publicly available or derived from open-access sources.  
+All input and evaluation datasets used in SHAPE, as well SHAPE-derived SAEs are publicly available or derived from open-access sources.  
 
 ### **1. Survey Data: Behavioral Risk Factor Surveillance System (BRFSS)**  
 - **Source:** CDC; 2019 and 2021 
