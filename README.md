@@ -3,6 +3,8 @@
 **Programming Language:** R  
 **Citation:** insert
 
+**SHAPE GIS Dashboard:** insert
+
 **Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoene@gmu.edu
 
 ## Overview  
