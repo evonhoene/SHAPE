@@ -21,6 +21,7 @@ Public health decision-making—such as identifying health inequalities or targe
 
 # SHAPE Evaluation Study Design
 *SHAPE was evaluated by comparing its SAE to benchmark data from CDC PLACES and BRFSS direct estimates, demonstrating accuracy and reproducibility across multiple spatial scales and settings for two health behaviors, and eleven health outcomes.*
+
 **Citation:** Von Hoene, E., Gupta, A., Kavak, H., Roess, A., & Anderson, T. (2025). Evaluation of A Spatial Microsimulation Framework for Small-Area Estimation of Population Health Outcomes Using the Behavioral Risk Factor Surveillance System. arXiv preprint arXiv:2510.22080.
   
 ### **Health Variables**
