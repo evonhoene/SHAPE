@@ -1,8 +1,6 @@
 # SHAPE: Spatial Health and Population Estimator  
 *A Spatial Microsimulation Framework for Public Health Small-Area Estimation (SAE)*  
 **Programming Language:** R  
-**Citation:** insert
-
 **SHAPE GIS Dashboard:** insert
 
 **Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoene@gmu.edu
@@ -21,7 +19,8 @@ Public health decision-making—such as identifying health inequalities or targe
 - Evaluates estimates against **CDC PLACES** and **BRFSS direct estimates**.  
 - Fully **open-source, scalable, and timely** for public health applications.
 
-## Study Design  
+## Evaluation Study Design  
+**Citation:** insert
 
 ### **Health Variables**
 - **Health Behaviors:** Smoking, Obesity  
