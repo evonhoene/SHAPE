@@ -1,7 +1,8 @@
 # SHAPE: Spatial Health and Population Estimator  
-*A Spatial Microsimulation Framework for Public Health Small-Area Estimation (SAE)*  
+***A Spatial Microsimulation Framework for Public Health Small-Area Estimation (SAE)***  
 **Programming Language:** R  
 **SHAPE GIS Dashboard:** insert
+*Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time!*
 
 **Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoene@gmu.edu
 
@@ -14,7 +15,8 @@ Public health decision-making—such as identifying health inequalities or targe
 ## Key Features  
 
 - Implements **hierarchical IPF** for multi-level microsimulation.  
-- Generates **synthetic individual-level populations** aligned with sociodemographic constraints.  
+- Generates **synthetic individual-level populations** that preserves joint distributions between sociodemographics and health attributes.
+- Supports downstream applications, such as Agent-Based Modeling, for further pursuing studies like investigating disease dynamics or testing policy scenarios.  
 - Fully **open-source, scalable, and timely** for public health applications.
 
 # SHAPE Evaluation Study Design
