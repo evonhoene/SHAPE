@@ -1,8 +1,7 @@
 # SHAPE: Spatial Health and Population Estimator  
 ***A Spatial Microsimulation Framework for Public Health Small-Area Estimation (SAE)***  
 **Programming Language:** R  
-**SHAPE GIS Dashboard:** [https://experience.arcgis.com/experience/a2e01cf4e2ba4fa3a68f6dca4c78ab2a]
-*Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time!*
+**SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
 
 **Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoene@gmu.edu
 
