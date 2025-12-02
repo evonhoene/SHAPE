@@ -3,7 +3,7 @@
 **Programming Language:** R  
 **SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
 
-**Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoen@gmu.edu
+**Contact:** Emma Von Hoene (evonhoen@gmu.edu) and Taylor Anderson (tander6@gmu.edu); Department of Geography and Geoinformation Science, George Mason University
 
 ## Overview  
 
@@ -72,7 +72,7 @@ All input and evaluation datasets used in SHAPE, as well SHAPE-derived SAEs are 
 - **Format:** Excel outputs containing aggregated prevalence rates for Flordia and New York, both at counties and census tract scales.    
 
 
-
+*SHAPE development was supported by the National Science Foundation Award No. 2109647 and 2302970.*
 
 
 
