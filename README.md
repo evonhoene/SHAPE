@@ -3,7 +3,7 @@
 **Programming Language:** R  
 **SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
 
-**Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoene@gmu.edu
+**Contact:** Emma Von Hoene; Department of Geography and Geoinformation Science, George Mason University; evonhoen@gmu.edu
 
 ## Overview  
 
@@ -57,7 +57,7 @@ All input and evaluation datasets used in SHAPE, as well SHAPE-derived SAEs are 
 - **Use:** Provides marginal population totals (e.g., age, race, education, income) at county and census tract levels used in the IPF algorithm to align the survey data with local sociodemographic distributions.  
 
 ### **3. Evaluation Data: CDC PLACES**  
-- **Source:** CDC 2021 and 2023 releases; for Florida (2021) and New York (2023) counties and census tracts
+- **Source:** CDC 2021 and 2023 releases; for Florida (2019) and New York (2021) counties and census tracts
 - **Type:** Model-based SAE estimates  
 - **Use:** Benchmark dataset for evaluating SHAPE estimates at county and census tract levels.
 
