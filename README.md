@@ -1,5 +1,5 @@
 # SHAPE: Spatial Health and Population Estimator  
-***A Spatial Microsimulation Framework for Public Health Small-Area Estimation (SAE)***  
+***A Spatial Microsimulation Framework for Public Health Synthetic Population Generation and Small-Area Estimation (SAE)***  
 **Programming Language:** R  
 **SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
 
