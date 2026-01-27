@@ -9,38 +9,50 @@
 
 Public health decision-making—such as identifying health inequalities or targeting interventions—requires population health data at fine geographic scales. However, such *ground truth* data are often unavailable.  
 
-**SHAPE (Spatial Health and Population Estimator)** introduces an open, reproducible, and transparent framework for **spatial microsimulation-based small-area estimation (SAE)**. Implemented entirely in R, SHAPE uses a hierarchical **Iterative Proportional Fitting (IPF)** process to integrate individual-level health surveys with spatially aggregated census data. The result is a synthetic population that preserves joint distributions of individual characteristics, enabling fine-scale health analysis.
-
-## Key Features  
-
-- Implements **hierarchical IPF** for multi-level microsimulation.  
-- Generates **synthetic individual-level populations** that preserves joint distributions between sociodemographics and health attributes.
-- Supports downstream applications, such as Agent-Based Modeling, for further pursuing studies like investigating disease dynamics or testing policy scenarios.  
-- Fully **open-source, scalable, and timely** for public health applications.
-
-# SHAPE Evaluation Study Design
-*SHAPE was evaluated by comparing its SAE to benchmark data from CDC PLACES and BRFSS direct estimates, demonstrating accuracy and reproducibility across multiple spatial scales and settings for two health behaviors, and eleven health outcomes.*
-
-**Citation:** Von Hoene, E., Gupta, A., Kavak, H., Roess, A., & Anderson, T. (2025). Evaluation of A Spatial Microsimulation Framework for Small-Area Estimation of Population Health Outcomes Using the Behavioral Risk Factor Surveillance System. arXiv preprint arXiv:2510.22080.
-  
-### **Health Variables**
-- **Health Behaviors:** Smoking, Obesity  
-- **Health Outcomes:** Cancer, Asthma, High Blood Pressure, Diabetes, COPD, Arthritis, High Cholesterol, Kidney Disease, Heart Disease, Depression, and Stroke  
-
-### **Geographic Focus**
-- **Florida (2019)** and **New York (2021)**  
-- SAEs generated at **county** and **census tract** levels  
+**SHAPE (Spatial Health and Population Estimator)** introduces an open-source, reproducible, and transparent framework that relies on publicly available data  for **spatial microsimulation-based synthetic populations and small-area estimation (SAE)**. Implemented entirely in R, SHAPE uses a hierarchical **Iterative Proportional Fitting (IPF)** process to integrate individual-level health surveys with spatially aggregated census data. The result is a synthetic population that preserves joint distributions of individual characteristics, enabling spatial aggregation to obtain SAEs. This data allows for fine-scale health analysis and  supports downstream applications, such as Agent-Based Modeling, for further exploring disease dynamics or testing policy scenarios.
 
 ### **Methods Summary**
 SHAPE uses a **two-level hierarchical IPF framework**:
 1. **Level 1:** Fits BRFSS survey data to ACS demographic marginals to generate synthetic local populations and estimate smoking and obesity prevalence.  
-2. **Level 2:** Incorporates Level 1 estimates to model eleven health outcomes, producing fine-scale prevalence estimates.  
+2. **Level 2:** Incorporates Level 1 estimates to model eleven health outcomes, producing fine-scale prevalence estimates.
 
-## Results Summary  
+## **Health Variables Generated with SHAPE**
+- **Health Behaviors:** Smoking, Obesity  
+- **Health Outcomes:** Cancer, Asthma, High Blood Pressure, Diabetes, COPD, Arthritis, High Cholesterol, Kidney Disease, Heart Disease, Depression, and Stroke  
 
-- SHAPE estimates were **moderately consistent** with BRFSS direct estimates (r̄ ≈ 0.5).  
-- SHAPE estimates were **highly consistent** with CDC PLACES at county (r̄ ≈ 0.8) and census tract (r̄ ≈ 0.7) levels.  
-- Demonstrated flexibility and reproducibility across multiple spatial scales and survey inputs.
+## Repository Structure and Data Organization
+
+This GitHub repository contains materials from **two distinct SHAPE studies**, organized into separate folders to support transparency, reproducibility, and reuse.
+
+### **1. SHAPE Evaluation Study**
+This study systematically evaluated SHAPE-generated SAEs across multiple health behaviors/outcomes, spatial and temporal settings, and spatial scales by comparing them to benchmark datasets (CDC PLACES and BRFSS direct estimates).
+
+- **Folder:** `SHAPE_Evaluation/`
+- **Contents:**
+  - All **input datasets** used for the evaluation (BRFSS, ACS, CDC PLACES, BRFSS direct estimates)
+  - All **SHAPE-generated SAE outputs** used in the evaluation (Florida - 2019, and New York - 2021- at both county and census tract scales)
+
+This folder fully supports the analyses presented in the following SHAPE evaluation manuscript.  
+**Citation:** Von Hoene, E., Gupta, A., Kavak, H., Roess, A., & Anderson, T. (2025). Evaluation of A Spatial Microsimulation Framework for Small-Area Estimation of Population Health Outcomes Using the Behavioral Risk Factor Surveillance System. arXiv preprint arXiv:2510.22080.
+
+### **2. SHAPE Data Release (2023–2024)**
+SHAPE was also used to generate **national synthetic populations and small-area estimates (SAEs)** for recent years, intended as a reusable public data product.
+
+- **Folder:** `SHAPE_Data_Release/`
+- **Years Covered:** 2023 and 2024
+- **Contents:**
+  - **Input data** used to generate national synthetic populations
+  - **Output datasets**, including:
+    - National synthetic populations
+    - Small-area health estimates (SAEs)
+
+These datasets are provided as a standalone data release for downstream research and policy applications.
+
+  
+
+
+
+
   
 ## Data Description  
 
