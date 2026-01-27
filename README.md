@@ -29,8 +29,9 @@ This study systematically evaluated SHAPE-generated SAEs across multiple health 
 
 - **Folder:** `SHAPE_Evaluation/`
 - **Contents:**
-  - All **input datasets** used for the evaluation (BRFSS, ACS, CDC PLACES, BRFSS direct estimates)
+  - All **input datasets** used (BRFSS - Surveys from 2019 and 2021, and ACS - Spatially Aggregated Sociodemographics from 2017-2021 Five Year Estimates)
   - All **SHAPE-generated SAE outputs** used in the evaluation (Florida - 2019, and New York - 2021- at both county and census tract scales)
+  - All **evaluation datasets** (CDC PLACES - 2019 and 2021 releases at county and census tract levels, and BRFSS direct estimates - county level from New York Department of Health BRFSS 2021, and Florida Health Charts BRFSS 2019)
 
 This folder fully supports the analyses presented in the following SHAPE evaluation manuscript.  
 **Citation:** Von Hoene, E., Gupta, A., Kavak, H., Roess, A., & Anderson, T. (2025). Evaluation of A Spatial Microsimulation Framework for Small-Area Estimation of Population Health Outcomes Using the Behavioral Risk Factor Surveillance System. arXiv preprint arXiv:2510.22080.
@@ -41,48 +42,12 @@ SHAPE was also used to generate **national synthetic populations and small-area 
 - **Folder:** `SHAPE_Data_Release/`
 - **Years Covered:** 2023 and 2024
 - **Contents:**
-  - **Input data** used to generate national synthetic populations
+  - **Input data** used to generate national synthetic populations (BRFSS - Surveys from 2023 and 2024, and ACS - Spatially Aggregated Sociodemographics from 2019-2023 Five Year Estimates)
   - **Output datasets**, including:
-    - National synthetic populations
-    - Small-area health estimates (SAEs)
+    - National synthetic populations (individuals aged 18+)
+    - SAEs (county and census tract scale)
 
-These datasets are provided as a standalone data release for downstream research and policy applications.
-
-  
-
-
-
-
-  
-## Data Description  
-
-All input and evaluation datasets used in SHAPE, as well SHAPE-derived SAEs are publicly available or derived from open-access sources.  
-
-### **1. Survey Data: Behavioral Risk Factor Surveillance System (BRFSS)**  
-- **Source:** CDC; 2019 and 2021 
-- **Type:** Individual-level health survey data  
-- **Use:** Provides individual samples with health behaviors and outcomes, as well as demographics used in the IPF-based microsimulation fitting. 
-
-### **2. Spatially Aggregated Data: American Community Survey (ACS)**  
-- **Source:** U.S. Census Bureau, 2017–2021 5-year estimates  
-- **Type:** Spatially aggregated demographic data  
-- **Use:** Provides marginal population totals (e.g., age, race, education, income) at county and census tract levels used in the IPF algorithm to align the survey data with local sociodemographic distributions.  
-
-### **3. Evaluation Data: CDC PLACES**  
-- **Source:** CDC 2021 and 2023 releases; for Florida (2019) and New York (2021) counties and census tracts
-- **Type:** Model-based SAE estimates  
-- **Use:** Benchmark dataset for evaluating SHAPE estimates at county and census tract levels.
-
-### **4. Evaluation Data: BRFSS Direct Estimates**  
-- **Source:** New York Department of Health BRFSS 2021, and Florida Health Charts BRFSS 2019
-- **Type:** Direct estimates derivied from respective county-level BRFSS surveys
-- **Use:** Benchmark dataset for evaluating SHAPE estimates at county levels.  
-
-### **5. SHAPE-Derived Outputs**  
-- **Level 1:** Synthetic populations and prevalence estimates for two health behaviors (e.g., smoking, obesity).  
-- **Level 2:** Extended estimates for eleven health outcomes (e.g., diabetes, hypertension, depression).  
-- **Format:** Excel outputs containing aggregated prevalence rates for Flordia and New York, both at counties and census tract scales.    
-
+These datasets are provided as a standalone data release for downstream research and policy applications
 
 *SHAPE development was supported by the National Science Foundation Award No. 2109647 and 2302970.*
 
