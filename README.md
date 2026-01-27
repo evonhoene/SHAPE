@@ -22,7 +22,7 @@ SHAPE uses a **two-level hierarchical IPF framework**:
 
 ## Repository Structure and Data Organization
 
-This GitHub repository contains materials from **two distinct SHAPE studies**, organized into separate folders to support transparency, reproducibility, and reuse.
+This GitHub repository contains materials from **two distinct SHAPE studies**, organized into separate folders to support transparency, reproducibility, and reuse. A third folder is also included, which holds several **R scripts** for pre-processing the input data, generating  synthetic populations with SHAPE's Level 1 and 2 framework, and post-processing the synthetic populations.
 
 ### **1. SHAPE Evaluation Study**
 This study systematically evaluated SHAPE-generated SAEs across multiple health behaviors/outcomes, spatial and temporal settings, and spatial scales by comparing them to benchmark datasets (CDC PLACES and BRFSS direct estimates).
@@ -48,6 +48,11 @@ SHAPE was also used to generate **national synthetic populations and small-area 
     - SAEs (county and census tract scale)
 
 These datasets are provided as a standalone data release for downstream research and policy applications
+
+### **3. SHAPE R Scripts and Computational Framework**
+
+This folder contains all **core R scripts** used to implement SHAPE, process input data, generate synthetic populations, produce small-area estimates, and perform validation or post-processing analyses. These scripts support both the SHAPE evaluation study and the national SHAPE data releases.
+- **Folder:** `R Scripts/`
 
 *SHAPE development was supported by the National Science Foundation Award No. 2109647 and 2302970.*
 
