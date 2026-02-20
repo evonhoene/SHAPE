@@ -2,6 +2,7 @@
 ***A Spatial Microsimulation Framework for Public Health Synthetic Population Generation and Small-Area Estimation (SAE)***  
 **Programming Language:** R  
 **SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
+
 **OSF Data Repository:** https://doi.org/10.17605/OSF.IO/XN4G8 
 
 **Contact:** Emma Von Hoene (evonhoen@gmu.edu) and Taylor Anderson (tander6@gmu.edu); Department of Geography and Geoinformation Science, George Mason University
@@ -36,6 +37,7 @@ This study systematically evaluated SHAPE-generated SAEs across multiple health 
 
 This folder fully supports the analyses presented in the following SHAPE evaluation manuscript.  
 **Citation:** Von Hoene, E., Gupta, A., Kavak, H., Roess, A., & Anderson, T. (2025). Evaluation of A Spatial Microsimulation Framework for Small-Area Estimation of Population Health Outcomes Using the Behavioral Risk Factor Surveillance System. arXiv preprint arXiv:2510.22080.
+
 **Link**: https://arxiv.org/abs/2510.22080. 
 
 ### **2. SHAPE Data Release (2023–2024)**
