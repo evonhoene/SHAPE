@@ -1,11 +1,10 @@
 # SHAPE: Spatial Health and Population Estimator  
 ***A Spatial Microsimulation Framework for Public Health Synthetic Population Generation and Small-Area Estimation (SAE)***  
-**Programming Language:** R  
-**SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
 
-**OSF Data Repository:** https://doi.org/10.17605/OSF.IO/XN4G8 
-
-**Contact:** Emma Von Hoene (evonhoen@gmu.edu) and Taylor Anderson (tander6@gmu.edu); Department of Geography and Geoinformation Science, George Mason University
+-**Programming Language:** R  
+-**SHAPE GIS Web App:** *Interactively explore SHAPE’s estimates, and visualize health outcomes and behaviors across space and time* - https://tinyurl.com/SHAPE-GIS
+-**OSF Data Repository:** https://doi.org/10.17605/OSF.IO/XN4G8 
+-**Contact:** Emma Von Hoene (evonhoen@gmu.edu) and Taylor Anderson (tander6@gmu.edu); Department of Geography and Geoinformation Science, George Mason University
 
 ## Overview  
 
