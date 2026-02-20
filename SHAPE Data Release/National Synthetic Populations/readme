@@ -1,1 +1,16 @@
 You can locate the national synthetic populations for 2023 and 2024 at: osf.io/xn4g8 
+
+*Description*: Individual-level synthetic population data for the entire U.S. for 2023 and 2024 (aged 18+), including sociodemographic characteristics, health behaviors, and health outcomes.
+
+*Format*: Apache Parquet (.parquet), partitioned by U.S. state.
+
+*Content:*
+- Sociodemographics: gender, race, age, income, education, health insurance status, urbanicity.
+
+- Health behaviors: smoking, obesity.
+
+- Health outcomes: arthritis, asthma, cancer, COPD, depression, diabetes, heart disease, high blood pressure, high cholesterol, kidney disease, stroke (high blood pressure and high cholesterol excluded in 2024).
+
+- Geographic identifiers: state, county, and census tract FIPS.
+
+*Usage*: Data can be loaded using open-source and proprietary tools. Example R scripts for data extraction are provided in GitHub at https://github.com/evonhoene/SHAPE.
