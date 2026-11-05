@@ -40,7 +40,7 @@ This study systematically evaluated SHAPE-generated SAEs across multiple health 
 This folder fully supports the analyses presented in the following SHAPE evaluation manuscript.  
 **Citation:** Von Hoene, E., Gupta, A., Kavak, H. et al. Evaluation of a spatial microsimulation framework for small-area estimation of population health outcomes using the behavioral risk factor surveillance system. Int J Health Geogr (2026).
 
-**Link**: (https://doi.org/10.1186/s12942-026-00485-3)
+**Link**: https://doi.org/10.1186/s12942-026-00485-3
 
 ### **2. SHAPE Data Release (2023–2024)**
 SHAPE was also used to generate **national synthetic populations and small-area estimates (SAEs)** for recent years, intended as a reusable public data product.
