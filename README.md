@@ -38,9 +38,9 @@ This study systematically evaluated SHAPE-generated SAEs across multiple health 
   - All **evaluation datasets** (CDC PLACES - 2019 and 2021 releases at county and census tract levels, and BRFSS direct estimates - county level from New York Department of Health BRFSS 2021, and Florida Health Charts BRFSS 2019)
 
 This folder fully supports the analyses presented in the following SHAPE evaluation manuscript.  
-**Citation:** Von Hoene, E., Gupta, A., Kavak, H., Roess, A., & Anderson, T. (2025). Evaluation of A Spatial Microsimulation Framework for Small-Area Estimation of Population Health Outcomes Using the Behavioral Risk Factor Surveillance System. arXiv preprint arXiv:2510.22080.
+**Citation:** Von Hoene, E., Gupta, A., Kavak, H. et al. Evaluation of a spatial microsimulation framework for small-area estimation of population health outcomes using the behavioral risk factor surveillance system. Int J Health Geogr (2026).
 
-**Link**: https://arxiv.org/abs/2510.22080. 
+**Link**: [https://arxiv.org/abs/2510.22080. ](https://doi.org/10.1186/s12942-026-00485-3)
 
 ### **2. SHAPE Data Release (2023–2024)**
 SHAPE was also used to generate **national synthetic populations and small-area estimates (SAEs)** for recent years, intended as a reusable public data product.
